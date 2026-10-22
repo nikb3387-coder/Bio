@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1236">
+  <title>Моя биография</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="center">Моя биография</h1>
+
+    <img class="images" alt="Моё фото"
+         src="https://sun7-16.userapi.com/impg/OkzNnjStjjTZrIdvB3c6nGnNTN65S90PWHdAAg/KGEAmmQWjwo.jpg?size=1620x2160&amp;quality=96&amp;sign=9b176fd9e0b2304300597f1173806535&amp;c_uniq_tag=5bwXj100h8M_jiHEhdMX8D3M-MSWIoRVH5gFo2cM8cY&amp;type=album">
+
+    <nav>
+      <a href="https://vk.com/nikb3387" target="_blank" rel="noopener">Мой ВК</a>
+      <a href="Drug.html">Друзья</a>
+    </nav>
+
+    <p class="absurd">
+      Я родился 25.09.2006.<br>
+      Я очень странный человек, и многие считают меня психом.<br>
+      Я бываю очень вспыльчивый и могу навредить людям, но мне как-то похуй.<br>
+      Есть несколько друзей, о которых я расскажу на отдельной странице.<br>
+      Из увлечений у меня только паяльные работы и немного мототехника.<br>
+      Учусь на момент написания текста в школе села Баженовского в девятом классе.<br>
+      И ещё... Всё.<br>
+      Я человек любознательный, поэтому всегда попадаю в приключения.
+    </p>
+  </main>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
